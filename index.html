@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ <title>PowerFull</title>
+</head>
+<body>
+    <!--Header Start-->
+    <header id="header">
+        <div class="logo" >
+            <img src="img/logo.png" alt="logo1">
+        </div>
+        <nav id="navbar">
+            <a href="#home">Home</a>
+            <a href="#classes">Classes</a>
+            <a href="#trainer">Trainer</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+            <a href="#joinus" class="join-btn">JOIN US</a>
+        </nav>
+        <div class="hamburger-menu">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+       
+    </header>
+    <!--Header End-->
+
+    <!--Hero Section Start-->
+    <section class="hero" id="home" >
+        <div class="hero-text">
+            <div>
+                <a class="power-btn">POWERFULL</a><br>
+                <h1>Group <br>Pratice <br>With Trainer</h1>
+            </div>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda temporibus porro necessitatibus dolore incidunt nobis autem deserunt minus repellat dolorem?</p>
+            <div class="hero-btn">
+                <a class="signup-btn">Sign Up</a>
+                <a class="details-btn">Details</a>
+
+            </div>
+        </div>
+    </section>
+    <!--Hero Section End-->
+
+    <!--Card Section Start-->
+    <div class="section">
+        <div class="card">
+            <h1>325</h1>
+            <h2>Course</h2>
+        </div>
+        <div class="card">
+            <h1>405</h1>
+            <h2>Work Out</h2>
+    </div>
+    <div class="card">
+        <h1>305</h1>
+        <h2>Working Hour</h2>
+    </div>
+    <div class="card">
+        <h1>705</h1>
+        <h2>Happy Client</h2>
+    </div>
+    </div>
+    <!--Card Section End-->
+
+    <!--Classes Section Start-->
+
+    <div class="section-classes" id="classes">
+        <div class="container">
+          <h1 class="classes-title extra-bold">OUR CLASSES</h1>
+          <div class="yellow-line"></div>
+          <div class="classes-content">
+            <p id="classContent">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <div class="buttons-container">
+                <button class="class-button" data-content="yoga" onclick="showContent('yoga')">Yoga</button>
+                <button class="class-button" data-content="group" onclick="showContent('group')">Group</button>
+                <button class="class-button" data-content="solo" onclick="showContent('solo')">Solo</button>
+                <button class="class-button" data-content="stretching" onclick="showContent('stretching')">Stretching</button>
+                
+            </div>
+            <div class="content-container" id="yogaContent">
+              <div class="text-box">
+                <h3>Why you should do Yoga?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia fuga hic dolores consequuntur odit perferendis tenetur. Tempore corrupti quis nobis!</p>
+                <h3>Yoga Schedule</h3>
+                <p>Saturday-Sunday: 8:00am - 10:00am</p>
+                <p>Monday-Tuesday: 10:00am - 12:00am</p>
+                <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+              </div>
+              <div class="image-box">
+                <img class="yogapic" src="img/yoga.jpg" alt="Resim" />
+              </div>
+            </div>
+  
+            <div
+              class="content-container" id="groupContent" style="display: none">
+              <div class="text-box">
+                <h3>Why you should do Group Content?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h3>Group Schedule</h3>
+                <p>Saturday-Sunday: 8:00am - 10:00am</p>
+                <p>Monday-Tuesday: 10:00am - 12:00am</p>
+                <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+              </div>
+              <div class="image-box">
+                <img class="yogapic" src="img/group.webp" alt="Resim" />
+              </div>
+            </div>
+  
+            <div class="content-container" id="soloContent" style="display: none">
+              <div class="text-box">
+                <h3>Why you should do Solo Class?</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <h3>Solo Schedule</h3>
+                <p>Saturday-Sunday: 8:00am - 10:00am</p>
+                <p>Monday-Tuesday: 10:00am - 12:00am</p>
+                <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+              </div>
+              <div class="image-box">
+                <img class="yogapic" src="img/solo.jpg" alt="Resim" />
+              </div>
+            </div>
+  
+            <div class="content-container" id="stretchingContent" style="display: none">
+              <div class="text-box">
+                <h3>Why you should do Stretching?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur enim omnis harum eum. Nulla natus, autem sed nesciunt quas magnam.</p>
+                <h3>Stretching Schedule</h3>
+                <p>Saturday-Sunday: 8:00am - 10:00am</p>
+                <p>Monday-Tuesday: 10:00am - 12:00am</p>
+                <p>Wednesday-Friday: 3:00pm - 6:00pm</p>
+              </div>
+              <div class="image-box">
+                <img class="yogapic" src="img/stret.webp" alt="Resim" />
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+      <!--Classes Section End-->
+
+      <!--BMI Start-->
+      <section class="bmi-section">
+        <div class="bmi-calculator">
+            <h1>BMI Calculator</h1>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                <br> <br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+            </p>
+            <div class="bmi-inputs">
+                <input type="text" id="inputHeight" placeholder="Your Height (cm)">
+                <input type="text" id="inputWeight" placeholder="Your Weight (kg)">
+            </div>
+            <div class="bmi-buttons">
+                <input type="button" id="calculateBtn" onclick="calculateBMI()" value="Hesapla">
+                <input type="button" id="resetBtn" onclick="resetBMI()" value="Reset">
+            </div>
+            <span id="bmiResult"></span>
+
+        </div>
+
+        <div class="calculator-bmi">
+            <h3>Your BMI</h3>
+            <img src="img/bmi-index.jpg" alt="">
+           
+            <div class="progress-bar">
+              <div class="progress" id="progress-bar"></div>
+          </div>
+  
+         
+            <div class="button-under"></div>
+
+
+        </div>
+    </section>
+
+    <!--BMI End-->
+
+    <!--Trainer Start-->
+    <section id="trainer" class="trainers">
+       <div class="trainer-hero">
+            <div class="trainer-info">
+              <h3>OUR BEST TRAINERS</h3>
+              <div class="yellow-line"></div>
+              <p class="text-purchase">Lorem ipsum is not simply random text.It has roots in a piece of classical at <br> Hampden-Sydney College.</p>
+           </div>
+  
+          <div class="trainer-cards">
+              
+              <div class="cards trainer-1">
+                  <img src="img/trainer1.jpg" alt="">
+                  <div class="trainer-content">
+                      <h1>Elsa</h1>
+                      <span>Pilates</span>
+                  </div>
+              </div>
+              <div class="cards trainer-2">
+                  <img src="img/trainer2.jpg" alt="">
+                  <div class="trainer-content">
+                      <h1>Johny Bravo</h1>
+                      <span>Solo Content</span>
+                  </div>
+              </div>
+              <div class="cards trainer-3">
+                  <img src="img/trainer3.jpg" alt="">
+                  <div class="trainer-content">
+                      <h1>Jane Doe</h1>
+                      <span>Cardio Trainer</span>
+                  </div>
+              </div>
+   
+          </div>
+  
+      </div>
+  
+  </section>
+  
+  <!--Trainer end-->
+
+  <!--Purchase Start-->
+  <div class="purchase">
+    <div class="container">
+      <h1 class="purchase-tittle">Purchase From Us</h1>
+      <div class="yellow-line"></div>
+      <p class="text-purchase">Lorem ipsum is not simply random text.It has roots in a piece of classical at <br> Hampden-Sydney College.</p>
+     
+      <div class="row">
+        <!--1.resim olan-->
+        <div class="col-md-3">
+          <div class="prod-box">
+            <img src="img/purchase1.jpg">
+            <div class="prod-info">
+              <h2>Kettebell / 5kg</h2>
+              <h5><span style="text-decoration: line-through;">89,99$ </span>/ 59,9$</h5>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <button class="btn btn-primary">Add To Card</button>
+            </div>
+           </div>
+        </div>
+        <!--2.resim olan-->
+        <div class="col-md-3">
+          <div class="prod-box">
+            <img src="img/purchase2.jpg">
+            <div class="prod-info">
+              <h2>Treadmill</h2>
+              <h5><span style="text-decoration:line-through ;">899,99$</span>/599,99$</h5>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <button class="btn btn-primary">Add To Cart</button>
+            </div>
+          </div>
+          </div>
+          <!--3.resim olan-->
+        <div class="col-md-3">
+          <div class="prod-box">
+            <img src="img/purchase3.jpg">
+            <div class="prod-info">
+              <h2>Adjustable Dumbbell</h2>
+              <h5><span style="text-decoration: line-through;">89,99$</span>/59,99$</h5>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <button class="btn btn-primary">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+        <!--4.resim olan-->
+        <div class="col-md-3">
+          <div class="prod-box">
+            <img src="img/purchase4.jpg">
+            <div class="prod-info">
+              <h2>Kettlebell</h2>
+              <h5><span style="text-decoration: line-through;">89,99$</span>/59,99$</h5>
+              <i class="fa-solid fa-cart-shopping"></i>
+              <button class="btn btn-primary">Add To Cart</button>
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+   
+  <!--Review Start-->
+  <section class="review" id="review">
+    <div class="review-container">
+      <div class="review-info">
+        <h1>REVIEW CLIENT</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores deserunt non nisi sequi.<br>Hampden-Sydney College. </p>
+      </div>
+
+      <div class="review-cards">
+        <!--1. Sol taraf-->
+        <div class="review-card">
+          <div class="card-top">
+            <img src="img/client1.jpg" alt="Client">
+            <div class="client">
+              <h2>Diet Expert</h2>
+              <p>CFO</p>
+            </div>
+          </div>
+            <div class="card-bottom">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nesciunt est, consectetur accusantium vitae mollitia.</p>
+            </div>
+          </div>
+          <!---2. sağ taraf-->
+          <div class="review-card">
+            <div class="card-top">
+              <img src="img/client2.jpg" alt="Client">
+              <div class="client">
+                <h2>Cardio Trainer</h2>
+                <p>CEO</p>
+              </div>
+            </div>
+            <div class="card-bottom">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus quam dolorum nulla perspiciatis sequi quidem.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+   
+  </section>
+  <!--Review End-->
+
+
+
+    <!--contact start-->
+
+    <section class="contact" id="contact">
+     
+      <div class="contact-header">
+          <h2>CONTACT US</h2>
+          <div class="yellow-line"></div>
+          <p>Lorem Ipsum is not simply random text. It has roots in a piece of classical at Hampden-Sydney College.</p>
+      </div>
+
+      <div class="contact-container">
+          <!-- Sol Taraf: İletişim Bilgileri ve Form -->
+          <div class="contact-content">
+              <div class="contact-info">
+                  <div class="info-item">
+                      <p><strong>Mobile Number</strong></p>
+                      <p>+135 773 321 4442</p>
+                  </div>
+                  <div class="info-item">
+                      <p><strong>Email Address</strong></p>
+                      <p>demo@demo.com</p>
+                  </div>
+              </div>
+
+              <div class="form-container">
+                  <h3>Make An Appointment</h3>
+                  <form>
+                      <input type="text" placeholder="Your Name">
+                      <input type="email" placeholder="Your Email">
+                      <textarea placeholder="Your Message"></textarea>
+                      <button type="submit">Send</button>
+                  </form>
+              </div>
+          </div>
+
+          <!-- Sağ Taraf: Harita -->
+          <div class="map">
+              <iframe 
+                  src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d4499.281597464103!2d30.550877843433565!3d37.76598987915123!3m2!1i1024!2i768!4f13.1!5e0!3m2!1str!2str!4v1742464556243!5m2!1str!2str" 
+                  width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+              </iframe>
+          </div>
+      </div>
+  </section>
+      
+         
+  <!--Contact End-->
+ 
+  <!--top buton start-->
+  <button onclick="scrollToTop()" id="topBtn">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+  <!--top buton end-->
+
+
+  <!--Footer start-->
+
+  <section class="footer">
+      <div class="footer-info">
+        <div class="footer-logo">
+          <img src="img/logo.png" alt="logo">
+        </div>
+        <div class="footer-text">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam non nihil magni quod, cumque optio deleniti! Itaque dolorem reprehenderit atque magni! Sequi cupiditate iste consectetur!
+            <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptatibus quaerat veniam quo, corrupti ut exercitationem minus voluptate ducimus inventore?
+          </p>
+        </div>
+      </div>
+      <div class="footer-link">
+        <div class="link-left">
+          <h2>Information</h2>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Classes</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h2>Helpful Links</h2>
+          <ul>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Supports</a></li>
+            <li><a href="#">Terms & Condition</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+
+        </div>
+      </div>
+  
+  </section>
+
+  <!--Footer end-->
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
