@@ -1,15 +1,15 @@
 # Proje Özeti
 -Proje, bir spor salonuna ait çeşitli derslerin, içeriklerine ve saatlerine dair bilgiler sunan, vücut kitle indeksinizi hesaplayabileceğiniz, spor salonunda hizmet veren antrenörler hakkında bilgi alabileceğiniz, kendinize uygun bulduğunuz hizmeti satın alabileceğiniz, spor salonuna ait iletişim bilgileri ve konum bilgisine ulaşabildiğiniz bir tasarıma ait web sitesidir.
 
-##Projede Kullanılan Teknolojiler
+## Projede Kullanılan Teknolojiler
 -Bu proje HTML,CSS ve JavaScript kullanılarak geliştirilmiştir.
 
-##Proje Gereksinimleri ve Uygulama
+## Proje Gereksinimleri ve Uygulama
 -Sınıf Butonları,BMI Hesaplayıcı,Google Maps ve Responsive Tasarım(576px genişlik için).
-#Live Site
+## Live Site
 https://remarkable-capybara-611bba.netlify.app
 
-##Uygulama Ekran Görüntüleri
+## Uygulama Ekran Görüntüleri
 <img width="1447" alt="Ekran Resmi 2025-03-23 21 17 59" src="https://github.com/user-attachments/assets/01a518f1-c814-4480-8f14-36a754648d3d" />
 <img width="1447" alt="Ekran Resmi 2025-03-23 21 18 10" src="https://github.com/user-attachments/assets/97392b54-7b6f-4900-bd05-0dd588c6c01e" />
 <img width="1447" alt="Ekran Resmi 2025-03-23 21 18 18" src="https://github.com/user-attachments/assets/25e8235a-b2c5-4aa2-9217-dcbb0a0fc4b5" />
